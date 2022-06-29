@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.container{
+    position: fixed;
+    background-color: blue;
+    width: 100%;
+    /* margin: 12px;    */
+    height: 10vh;
+    /* padding: 12px 0px; */
+    border: 2px solid blue;
+}
+
+#ul {
+    margin: 5px  30px;
+    display: flex;
+    list-style-type: none;
+    
+    
+}
+#ul li{
+    margin: 0px  30px;
+    padding: 12px 20px;  
+}
+#ul li a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+#ul li a:hover{
+    color: red;
+    border: 3px solid rgb(207, 28, 28);
+    border-radius: 8px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+
+}
+#maindiv{
+    background-image: url('hack.png');
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+#mainpara{
+    color: white;
+    z-index: 2;
+}
